@@ -2,7 +2,7 @@
   "name": "handson-hono",
   "description": "Hands on Hono",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.tsx"
   },
   "dependencies": {
     "@hono/node-server": "^1.9.0",
