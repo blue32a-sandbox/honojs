@@ -29,6 +29,10 @@ app.get('/page', (c) => {
   return c.html(<View />)
 })
 
+app.get('/morning', (c) => {
+  return new Response('Good Morning!');
+});
+
 app.get('/api/hello', (c) => {
   return c.json({
     ok: true,
